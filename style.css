@@ -41,3 +41,45 @@ a {
   padding: 30px 20px;
   margin: 0 auto;
 }
+
+/* Header */
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+}
+
+.btn {
+  border-radius: 20px;
+  border: 1px solid var(--pink);
+  padding: 10px 25px;
+  box-shadow: 0px 5px 6px rgba(51, 51, 51, 0.2);
+}
+
+.header-btn {
+  background-color: #fff;
+  color: var(--pink);
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+  border-color: var(--light-pink);
+  color: var(--light-pink);
+  transform: scale(1.08);
+}
