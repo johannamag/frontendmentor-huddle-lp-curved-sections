@@ -118,3 +118,9 @@ a {
 .hero-img {
   width: 100%;
 }
+
+@media screen and (max-width: 841px) {
+  .small {
+    width: 85%;
+  }
+}
