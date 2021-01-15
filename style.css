@@ -1,23 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
 
 :root {
-    --pink: hsl(322, 100%, 66%);
-    --light-pink: hsl(321, 100%, 78%);
-    --light-red: hsl(0, 100%, 63%);
-    --cyan: hsl(192, 100%, 9%);
-    --blue: hsl(207, 100%, 98%);
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --cyan: hsl(192, 100%, 9%);
+  --blue: hsl(207, 100%, 98%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cyan);
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
 
+a {
+  text-decoration: none;
+}
 
-
-- Pink: 
-- Light Pink: 
-- Light Red: 
-
-### Neutral
-
-- Very Dark Cyan: 
-- Very Pale Blue: 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
