@@ -175,13 +175,6 @@ a {
   background-color: var(--blue);
 }
 
-.bg {
-  background-image: url("./media/bg-section-bottom-desktop-1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
