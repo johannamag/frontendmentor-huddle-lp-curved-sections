@@ -216,10 +216,18 @@ a {
 }
 
 .flowing {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-image: url("./media/bg-section-top-desktop-2.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
+}
+
+@media screen and (max-width: 667px) {
+  .separator {
+    background-image: url("./media/bg-section-bottom-mobile-1.svg");
+  }
+  .flowing {
+    background-image: url("./media/bg-section-top-mobile-2.svg");
+  }
 }
