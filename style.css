@@ -193,3 +193,13 @@ a {
 .grid-img {
   width: 100%;
 }
+
+@media screen and (max-width: 667px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .reverse > .grid-img {
+    grid-row: 1 / 2;
+  }
+}
