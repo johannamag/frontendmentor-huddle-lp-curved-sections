@@ -124,3 +124,28 @@ a {
     width: 85%;
   }
 }
+
+.numbers {
+  padding-bottom: 200px;
+  background-image: url("./media/bg-section-top-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.numbers > .container {
+  display: flex;
+  align-items: center;
+}
+
+.number-container {
+  flex-grow: 1;
+}
+
+.number-heading {
+  font-size: 5rem;
+}
+
+.gray {
+  opacity: 0.4;
+}
