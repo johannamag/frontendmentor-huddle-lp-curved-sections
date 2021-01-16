@@ -203,3 +203,23 @@ a {
     grid-row: 1 / 2;
   }
 }
+
+/* Flow Section */
+
+.separator {
+  width: 100%;
+  height: 139px;
+  background-image: url("./media/bg-section-bottom-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+.flowing {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-image: url("./media/bg-section-top-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
