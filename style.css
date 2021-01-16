@@ -125,6 +125,8 @@ a {
   }
 }
 
+/* Numbers Section */
+
 .numbers {
   padding-bottom: 200px;
   background-image: url("./media/bg-section-top-desktop-1.svg");
@@ -165,4 +167,36 @@ a {
   .number-container:last-child {
     margin-bottom: 0;
   }
+}
+
+/* Grow Section */
+
+.grow {
+  background-color: var(--blue);
+}
+
+.bg {
+  background-image: url("./media/bg-section-bottom-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.grid-text {
+  align-self: center;
+}
+
+.subheading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.grid-img {
+  width: 100%;
 }
