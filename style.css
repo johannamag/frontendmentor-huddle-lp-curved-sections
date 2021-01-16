@@ -149,3 +149,20 @@ a {
 .gray {
   opacity: 0.4;
 }
+
+@media screen and (max-width: 685px) {
+  .numbers {
+    background-image: url("./media/bg-section-top-mobile-1.svg");
+  }
+  .numbers > .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .number-container {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .number-container:last-child {
+    margin-bottom: 0;
+  }
+}
