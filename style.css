@@ -357,3 +357,30 @@ a {
 .attribution > a:hover {
   color: var(--pink);
 }
+
+@media screen and (max-width: 667px) {
+  .footer-reverse {
+    grid-gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .white {
+    text-align: left;
+  }
+  .socials {
+    text-align: left;
+  }
+  .footer-heading {
+    text-align: left;
+  }
+  .input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form-btn {
+    width: 35%;
+    float: right;
+  }
+}
