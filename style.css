@@ -263,3 +263,9 @@ a {
   background-size: contain;
   background-position: center bottom;
 }
+
+@media screen and (max-width: 667px) {
+  .end {
+    background-image: url("./media/bg-footer-top-mobile.svg");
+  }
+}
