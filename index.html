@@ -13,6 +13,8 @@
     />
 
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -104,20 +106,43 @@
         <button class="btn btn-pink">Get Started For Free</button>
       </div>
     </section>
-      Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum
-    a, ultrices quis sem. Phone: +1-543-123-4567 example@huddle.com Newsletter
-    To recieve tips on how to grow your community, sign up to our weekly
-    newsletter. We’ll never send you spam or pass on your email address
-    Subscribe
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <div class="grid footer-reverse">
+          <div class="footer-links">
+            <h1 class="footer-logo">Huddle</h1>
+            <p class="desc white">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum
+            a, ultrices quis sem.</p>
+            <div class="contact">
+              <img src="./media/icon-phone.svg" alt="icon" class="contact-icon">
+              <p class="desc white">Phone: +1-543-123-4567</p>
+            </div>
+            <div class="contact">
+              <img src="./media/icon-email.svg" alt="icon" class="contact-icon">
+              <p class="desc white">example@huddle.com</p>
+            </div>
+            <div class="socials">
+              <i class="fab fa-facebook-square large"></i>
+              <i class="fab fa-instagram large"></i>
+              <i class="fab fa-twitter-square large"></i>
+            </div>
+          </div>
+          <div class="footer-form">
+            <h3 class="footer-heading">Newsletter</h3>
+            <p class="desc white">To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address</p>
+            <form action="#" class="form">
+              <input type="text" class="input" >
+              <button type="submit" class="form-btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="www.johannamagdalena.com">Johanna Magdalena</a>.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
