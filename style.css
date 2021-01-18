@@ -269,3 +269,91 @@ a {
     background-image: url("./media/bg-footer-top-mobile.svg");
   }
 }
+
+/* Footer Section */
+
+.footer {
+  background: var(--cyan);
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.footer-reverse {
+  grid-gap: 150px;
+}
+
+.white {
+  margin-bottom: 30px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-icon {
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.contact > .white {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  margin-top: 40px;
+}
+
+.large {
+  font-size: 2rem;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 100%;
+}
+
+.input {
+  width: 70%;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+.form-btn {
+  height: 30px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--pink);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: var(--light-pink);
+  transform: scale(1.08);
+}
+
+.attribution {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.attribution > a {
+  color: var(--light-pink);
+  transition: all 0.3s ease-in-out;
+}
+
+.attribution > a:hover {
+  color: var(--pink);
+}
